@@ -1,13 +1,14 @@
 //
-//  ViewController.h
+//  ToDoItem.m
 //  LocalPush
 //
 //  Created by Mritunjay Kumar on 26/11/12.
 //  Copyright (c) 2012 Mritunjay Kumar. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ToDoItem.h"
 
-@interface ViewController : UIViewController
+@implementation ToDoItem
+@synthesize year, month, day, hour, minute, second, eventName;
 
 @end
